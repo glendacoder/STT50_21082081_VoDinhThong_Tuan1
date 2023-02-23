@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .rect {
+                position: absolute;
+                left: 235px;
+                bottom: 364px;
+            }
+            .circle {
+                position: absolute;
+                width: 60px;
+                left: 50px;
+                bottom: 565px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>HTML Image</h2>
+        <img
+            src="/image/pic_trulli.jpg"
+            width="500"
+            height="333"
+            alt="My Place"
+            usemap="#imagemap"
+        />
+        <map name="imagemap">
+            <area
+                shape="rect"
+                coords="254, 214, 289, 298"
+                href="https://chat.openai.com/chat"
+                alt="Sun"
+            />
+            <area
+                shape="circle"
+                coords="58, 82, 40"
+                href="https://www.w3schools.com/"
+                alt="Mercury"
+            />
+        </map>
+        <img class="rect" src="/image/HinhChuNhat.png" alt="" />
+        <img class="circle" src="/image/vongTron.jpg" alt="" />
+    </body>
+</html>

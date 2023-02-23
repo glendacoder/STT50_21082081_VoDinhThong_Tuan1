@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 3</title>
+    <style>
+        .top {
+            display: block;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .down {
+            margin-top: 200px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background: antiquewhite;
+        }
+        .down .item .desc {
+            width: 180px;
+        }
+        .down .item .desc span {
+            position: relative;
+            display: inline-block;
+            top: -3.5px;
+            width: 20px;
+            height: 2px;
+            background: #000;
+        }
+        .down > .item:first-child {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex: 1;
+        }
+        .down > .item:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+        }
+        .down > .item:last-child {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <p>
+            One particular book which is recommended
+        reading is <u>The Street Lawyer</u> by <u>John Grisham</u>.
+        This book is about a lawyer who begins re
+        -evaluating his priorities in life when a bad        
+        incident occurs within his law firm. Consequently,
+        he becomes acquainted with the inner city streets,
+        adn readlizes the harsh existence of the homeless.
+        and vows to give them a chance in the courts. <u>The
+        Street Lawyer</u> is a <b style="font-style: italic;">great</b> book.
+        It is <b style="font-style: italic;">well written</b> and <b style="font-style: italic;">interesting</b>. Other books by <u>John Grisham</u>
+        include <u>The Film</u>. <u>The Pelican Brief</u>. and <u>The Client</u>.
+        </p>
+    </div>
+    <div class="down">
+        <div class="item">
+            <h1 class="title">High Flying</h1>
+            <p class="desc">
+                I gazed down into valleys.
+                At the snowcaps white as cream.
+                Then soared above the puffy clouds <span></span>
+                Too bad it was a dream!
+            </p>
+        </div>
+        <div class="item">
+            <h1 class="title">High Flying</h1>
+            <p class="desc">
+                I gazed down into valleys.
+                At the snowcaps white as cream.
+                Then soared above the puffy clouds <span></span>  
+                Too bad it was a dream!
+            </p>
+        </div>
+        <div class="item">
+            <h1 class="title">High Flying</h1>
+            <p class="desc">
+                I gazed down into valleys.
+                At the snowcaps white as cream.
+                Then soared above the puffy clouds <span></span>
+                Too bad it was a dream!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
